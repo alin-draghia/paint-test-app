@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="css/photo-sphere-viewer.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<script src="js/three.min.js"></script>
+<script src="js/D.min.js"></script>
+<script src="js/uevent.js"></script>
+<script src="js/doT.js"></script>
+<script src="js/photo-sphere-viewer.min.js"></script>
+
+<style>
+</style>
+
+<title>My App</title>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="btn-group">
+      <button id="original" type="button" class="btn btn-primary">Original</button>
+      <button id="red" type="button" class="btn btn-primary">Red</button>
+      <button id="blue" type="button" class="btn btn-primary">Blue</button>
+    </div>
+  </div>
+  <div class="row">
+    
+        <div id="mydiv" style="width:640px;height:480px;"></div>      
+  
+  </div>
+</div>
+
+
+
+
+<script type="application/javascript">
+
+var viewer = PhotoSphereViewer({
+    container: 'mydiv',
+    panorama: 'assets/22068963_10210743068677454_2017749385_o.jpg'
+  });
+
+
+  btn_original = document.getElementById("original");
+  btn_red = document.getElementById("red");
+  btn_blue = document.getElementById("blue");
+
+  btn_original.onclick = function() { 
+    viewer.setPanorama('assets/22068963_10210743068677454_2017749385_o.jpg');
+  }
+
+  btn_red.onclick = function() { 
+    viewer.setPanorama('assets/22117720_10210743057237168_1489438937_o.jpg');
+  }
+
+  btn_blue.onclick = function() { 
+    viewer.setPanorama('assets/22092645_10210743056957161_1797174468_o.jpg');
+  }
+
+</script>
+
+</body>
+</html>
