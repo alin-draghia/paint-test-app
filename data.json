@@ -1,0 +1,38 @@
+{
+    "locations":[
+        {
+            "name": "Brasov",
+            "views": [
+                {
+                    "color": "None",
+                    "panorama": "assets/22068963_10210743068677454_2017749385_o.jpg"
+                },
+                {
+                    "color": "Red",
+                    "panorama": "assets/22117720_10210743057237168_1489438937_o.jpg"
+                },
+                {
+                    "color": "Blue",
+                    "panorama":"assets/22092645_10210743056957161_1797174468_o.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Bucuresti",
+            "views": [
+                {
+                    "color": "None",
+                    "panorama": "assets/22068963_10210743068677454_2017749385_o.jpg"
+                },
+                {
+                    "color": "Red",
+                    "panorama": "assets/22117720_10210743057237168_1489438937_o.jpg"
+                },
+                {
+                    "color": "Blue",
+                    "panorama":"assets/22092645_10210743056957161_1797174468_o.jpg"
+                }
+            ]
+        }
+    ] 
+}
